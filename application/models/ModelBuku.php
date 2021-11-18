@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class ModeBuku extends CI_Model
+class ModelBuku extends CI_Model
 {
     //manajemen buku
     public function getBuku()
@@ -74,23 +74,3 @@ class ModeBuku extends CI_Model
         return $this->db->get();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

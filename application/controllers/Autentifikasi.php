@@ -83,8 +83,6 @@ class Autentifikasi extends CI_Controller
             $this->load->view('Autentifikasi/gagal');
         }
 
-
-
         public function registrasi()
 
         {
